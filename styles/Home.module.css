@@ -1,5 +1,5 @@
 .hero{
-    height: 400px;
+    height: 60vh;
     background-image: url("../public/hero.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,14 +11,6 @@
     color: white;
 }
 
-
-@media screen and (min-width:600px){
-    .hero{
-        height: 80vh;
-        background-position: bottom 10px right;
-    }
-}
-
 .hero_center{
     display: flex;
     justify-content: space-around;
@@ -27,7 +19,15 @@
 }
 
 .heading{
-    text-shadow: 2px 2px #000000a6;
+    background: rgb(10,128,225);
+background: linear-gradient(135deg, rgba(10,128,225,1) 25%, rgba(255,255,255,1) 49%, rgba(16,34,218,1) 75%);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-weight: 700;
+    font-size: 2rem;
     padding: 1rem;
 }
 
@@ -39,4 +39,20 @@
     background-color: blue;
     color: white;
     cursor: pointer;
+}
+
+@media screen and (min-width:500px){
+    .hero{
+        height: 80vh;
+        background-position: bottom 10px center;
+    }
+    .heading{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width:900px){
+    .heading{
+        font-size: 4rem;
+    }
 }

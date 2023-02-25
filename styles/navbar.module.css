@@ -1,13 +1,14 @@
 .navbar{
     /* background: rgb(10,128,225);
     background: linear-gradient(80deg, rgba(10,128,225,1) 27%, rgba(16,44,90,1) 73%); */
-    height: 120px;
+    height: 80px;
     width: 100vw;
     padding: 1rem 1.5rem;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    backdrop-filter: blur(2px);
 }
 
 .nav_left{
