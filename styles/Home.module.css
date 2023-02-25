@@ -20,7 +20,7 @@
 
 .heading{
     background: rgb(10,128,225);
-background: linear-gradient(135deg, rgba(10,128,225,1) 25%, rgba(255,255,255,1) 49%, rgba(16,34,218,1) 75%);
+background: linear-gradient(135deg, rgba(10,128,225,1) 31%, rgba(255,255,255,1) 64%);
     background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
