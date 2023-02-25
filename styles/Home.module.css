@@ -19,15 +19,17 @@
 }
 
 .heading{
-    background: rgb(10,128,225);
-background: linear-gradient(135deg, rgba(10,128,225,1) 31%, rgba(255,255,255,1) 64%);
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(34, 34, 235);
+  background: rgb(10,128,225);
+background: linear-gradient(135deg, rgba(10,128,225,1) 29%, rgba(255,255,255,1) 69%);
     background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   font-weight: 700;
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: 1rem;
 }
 
@@ -47,12 +49,12 @@ background: linear-gradient(135deg, rgba(10,128,225,1) 31%, rgba(255,255,255,1) 
         background-position: bottom 10px center;
     }
     .heading{
-        font-size: 3rem;
+        font-size: 4rem;
     }
 }
 
 @media screen and (min-width:900px){
     .heading{
-        font-size: 4rem;
+        font-size: 5rem;
     }
 }
