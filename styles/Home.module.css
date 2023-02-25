@@ -115,4 +115,13 @@ background: linear-gradient(135deg, rgba(10,128,225,1) 29%, rgba(255,255,255,1) 
     .about_right{
         width: 50%;
     }
+    .about_right h3{
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .about_right h3{
+        font-size: 1.5rem;
+    }
 }
