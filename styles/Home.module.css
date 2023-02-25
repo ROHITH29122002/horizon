@@ -3,7 +3,7 @@
     background-image: url("../public/hero.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: inherit;
+    background-position: bottom;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -56,5 +56,63 @@ background: linear-gradient(135deg, rgba(10,128,225,1) 29%, rgba(255,255,255,1) 
 @media screen and (min-width:900px){
     .heading{
         font-size: 5rem;
+    }
+}
+
+.about{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.about_left{
+    padding: 1rem;
+    color: blue;
+}
+
+.about_right{
+    margin: 1rem;
+}
+
+.desc_cont{
+    background: url("../public/blue_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+}
+
+.more_desc_cont{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.more_desc_cont div{
+    background: url("../public/blue_bg_soft.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: blue;
+}
+
+@media screen and (min-width:700px){
+    .about{
+        flex-direction: row;
+    }
+    .about_left{
+        padding-top: 2rem;
+        display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    }
+    .about_right{
+        width: 50%;
     }
 }
