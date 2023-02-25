@@ -65,6 +65,7 @@ background: linear-gradient(135deg, rgba(10,128,225,1) 29%, rgba(255,255,255,1) 
     justify-content: space-around;
     align-items: flex-start;
     flex-direction: column;
+    margin-bottom: 5rem;
 }
 
 .about_left{
