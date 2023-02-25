@@ -21,8 +21,8 @@
 .heading{
     -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgb(34, 34, 235);
-  background: rgb(8,9,246);
-  background: linear-gradient(135deg, rgba(8,9,246,1) 39%, rgba(255,255,255,1) 69%);
+  background: rgb(17,86,251);
+background: linear-gradient(135deg, rgba(17,86,251,1) 39%, rgba(255,255,255,1) 69%);
     background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -36,8 +36,8 @@
 .second_heading{
     -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgb(34, 34, 235);
-  background: rgb(8,9,246);
-background: linear-gradient(135deg, rgba(8,9,246,1) 39%, rgba(255,255,255,1) 69%);
+  background: rgb(17,86,251);
+background: linear-gradient(135deg, rgba(17,86,251,1) 39%, rgba(255,255,255,1) 69%);
     background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
